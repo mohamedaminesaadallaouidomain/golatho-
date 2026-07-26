@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Golatho.com | Premium Sports Domain For Sale</title>
+
+<meta name="description" content="Golatho.com is a premium brandable .com domain perfect for football, sports brands, sports media, mobile apps and global businesses. Available for acquisition.">
+
+<meta name="keywords" content="Golatho, Golatho.com, sports domain, football domain, premium domain, brandable domain">
+
+<style>
+body{
+margin:0;
+font-family:Arial,Helvetica,sans-serif;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+.hero{
+padding:80px 20px;
+}
+
+h1{
+font-size:56px;
+margin-bottom:10px;
+}
+
+h2{
+font-size:28px;
+color:#38bdf8;
+}
+
+p{
+max-width:850px;
+margin:auto;
+font-size:20px;
+line-height:1.8;
+padding:20px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 35px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+font-size:22px;
+border-radius:10px;
+margin-top:25px;
+}
+
+.features{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin:60px;
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+width:250px;
+border-radius:12px;
+}
+
+footer{
+margin-top:60px;
+padding:30px;
+background:#020617;
+}
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<h1>Golatho.com</h1>
+
+<h2>Premium Sports Brand Domain</h2>
+
+<p>
+
+Golatho.com is a memorable, modern and highly brandable .COM domain designed for ambitious sports businesses.
+
+Perfect for football brands, sportswear, media companies, football academies, mobile apps, betting analytics, fan communities and sports startups.
+
+</p>
+
+<a class="btn" href="mailto:YOUR_EMAIL@gmail.com">Contact Owner</a>
+
+</section>
+
+<section class="features">
+
+<div class="card">
+<h3>Premium .COM</h3>
+<p>Short and memorable.</p>
+</div>
+
+<div class="card">
+<h3>Global Brand</h3>
+<p>Easy to pronounce worldwide.</p>
+</div>
+
+<div class="card">
+<h3>Sports Ready</h3>
+<p>Perfect for football and sports.</p>
+</div>
+
+<div class="card">
+<h3>Available</h3>
+<p>This domain is available for acquisition.</p>
+</div>
+
+</section>
+
+<footer>
+
+<h2>Own Golatho.com Today</h2>
+
+<p>
+Serious inquiries only.
+</p>
+
+</footer>
+
+</body>
+</html>
