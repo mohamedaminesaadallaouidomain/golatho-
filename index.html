@@ -1,213 +1,646 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Golatho.com | Premium Brandable Domain for rent</title>
+<title>Golatho.com | Premium Brandable Domain for Sale</title>
 
-<meta name="description" content="Golatho.com is a premium, short and memorable .com domain ideal for sports, football, media, gaming, AI and technology brands. Available for acquisition.">
+<meta name="description" content="Golatho.com is a premium brandable .COM domain for sale. Perfect for football, sports, media, gaming, AI and technology brands.">
 
-<meta name="keywords" content="Golatho, Golatho.com, sports domain, football domain, premium domain, brandable domain">
+<meta name="keywords" content="Golatho, Golatho.com, premium domain, brandable domain, football domain, sports domain">
 
-  <script type="application/ld+json">
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+<!-- SOCIAL SHARING -->
+<meta property="og:title" content="Golatho.com | Premium Brandable Domain for Sale">
+<meta property="og:description" content="Golatho.com is a premium brandable .COM domain available for sale. Ideal for football, sports, media, gaming, AI and technology brands.">
+<meta property="og:url" content="https://golatho.com/">
+<meta property="og:type" content="website">
+
+<!-- GOOGLE STRUCTURED DATA -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Golatho.com",
   "url": "https://golatho.com/",
-  "description": "Golatho.com is a premium brandable .com domain available for acquisition. Ideal for sports, football, media, AI, gaming and technology brands.",
-  "inLanguage": "en",
-  "potentialAction": {
-    "@type": "ViewAction",
-    "target": "https://golatho.com/"
-  }
+  "description": "Golatho.com is a premium brandable .COM domain available for sale."
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Golatho.com",
-  "description": "Premium brandable .com domain name for sale.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Golatho"
-  },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://golatho.com/",
-    "priceCurrency": "USD",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
-  
 <style>
-body{
-margin:0;
-font-family:Arial,Helvetica,sans-serif;
 
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;color:white;
-text-align:center;
+* {
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:
+        radial-gradient(circle at top, #2a2414 0%, #0b0b0b 40%, #000000 100%);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    padding: 35px 20px 10px;
+}
+
+/* =========================
+   LOGO
+========================= */
 
 .profile img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 25px auto;
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
     display: block;
+    margin: 0 auto 18px;
+
+    filter:
+        drop-shadow(0 0 10px rgba(212,175,55,0.30))
+        drop-shadow(0 0 25px rgba(212,175,55,0.15));
 }
 
+/* =========================
+   HERO
+========================= */
 
-
-.hero{
-padding:80px 20px;
+.hero {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px 20px 65px;
 }
 
-h1{
-    font-size:56px;
-    margin-bottom:10px;
-    color:#D4AF37;
+h1 {
+    font-size: clamp(42px, 8vw, 76px);
+    margin: 5px 0;
+
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    color: #d4af37;
+
+    text-shadow:
+        0 0 15px rgba(212,175,55,0.25),
+        0 0 35px rgba(212,175,55,0.10);
 }
 
-h2{
-    font-size:28px;
-    color:#000000;
+.subtitle {
+    font-size: clamp(20px, 4vw, 30px);
+    margin: 12px 0;
+
+    color: #f5f5f5;
+    font-weight: 500;
 }
 
-p{
-    max-width:850px;
-    margin:auto;
-    font-size:20px;
-    line-height:1.8;
-    padding:20px;
-    color:#000000;
+.gold-line {
+    width: 110px;
+    height: 2px;
+
+    margin: 22px auto;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            #d4af37,
+            transparent
+        );
 }
 
-.btn{
-display:inline-block;
-padding:18px 35px;
-background:#22c55e;
-color:white;
-text-decoration:none;
-font-size:22px;
-border-radius:10px;
-margin-top:25px;
+/* =========================
+   BADGES
+========================= */
+
+.badge {
+    display: inline-block;
+
+    margin: 22px auto;
+
+    padding: 10px 22px;
+
+    border: 1px solid #d4af37;
+    border-radius: 50px;
+
+    color: #d4af37;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    background: rgba(212,175,55,0.04);
 }
 
-.features{
-display:none;
-justify-content:center;
-flex-wrap:wrap;
-margin:60px;
-gap:20px;
+/* =========================
+   DESCRIPTION
+========================= */
+
+.description {
+    max-width: 780px;
+
+    margin: 20px auto;
+
+    font-size: 19px;
+    line-height: 1.8;
+
+    color: #dddddd;
 }
 
-.card{
-background:#2B60DE;
-padding:25px;
-width:250px;
-border-radius:12px;
+/* =========================
+   BUTTON
+========================= */
+
+.btn {
+    display: inline-block;
+
+    margin-top: 18px;
+
+    padding: 17px 40px;
+
+    border-radius: 8px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4d86a,
+            #d4af37,
+            #9e7c18
+        );
+
+    color: #080808;
+
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+
+    box-shadow:
+        0 8px 30px rgba(212,175,55,0.25);
+
+    transition: 0.3s ease;
 }
 
-footer{
-margin-top:60px;
-padding:30px;
-background:#D4AF37;
+.btn:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 38px rgba(212,175,55,0.45);
 }
+
+/* =========================
+   IMAGES
+========================= */
+
 .images {
     width: 100%;
+    max-width: 1100px;
+
+    margin: 10px auto 70px;
+
+    padding: 0 15px;
 }
 
 .images img {
     width: 100%;
     height: auto;
+
     display: block;
+
+    margin: 0 auto 20px;
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 10px 35px rgba(0,0,0,0.65);
 }
+
+/* =========================
+   FEATURES
+========================= */
+
+.features-section {
+    max-width: 1050px;
+
+    margin: auto;
+
+    padding: 20px 20px 70px;
+}
+
+.section-title {
+    font-size: 32px;
+
+    color: #d4af37;
+
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    margin-top: 35px;
+}
+
+.card {
+    width: 260px;
+
+    min-height: 175px;
+
+    padding: 28px 20px;
+
+    background:
+        linear-gradient(
+            145deg,
+            #191919,
+            #090909
+        );
+
+    border: 1px solid rgba(212,175,55,0.45);
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.4);
+
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    border-color: #d4af37;
+
+    box-shadow:
+        0 15px 35px rgba(212,175,55,0.15);
+}
+
+.card h3 {
+    color: #d4af37;
+
+    font-size: 20px;
+
+    margin-top: 0;
+}
+
+.card p {
+    color: #cccccc;
+
+    line-height: 1.6;
+}
+
+/* =========================
+   SALE SECTION
+========================= */
+
+.sale {
+    max-width: 900px;
+
+    margin: 0 auto 70px;
+
+    padding: 45px 25px;
+
+    border-top:
+        1px solid rgba(212,175,55,0.35);
+
+    border-bottom:
+        1px solid rgba(212,175,55,0.35);
+}
+
+.sale h2 {
+    color: #d4af37;
+
+    font-size: 36px;
+
+    margin: 0 0 15px;
+}
+
+.sale p {
+    color: #dddddd;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 45px 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #d4af37,
+            #b89425,
+            #d4af37
+        );
+
+    color: #000000;
+}
+
+footer h2 {
+    margin: 0 0 10px;
+
+    font-size: 28px;
+}
+
+footer p {
+    margin: 0;
+
+    font-size: 15px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding-top: 25px;
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 330px;
+    }
+
+    .sale h2 {
+        font-size: 28px;
+    }
+
+    .images {
+        padding: 0 10px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 17px;
+    }
+}
+
 </style>
 
 </head>
 
+
 <body>
-<div class="profile">
-    <img src="file_00000000534081f4a69caa93b8127aa8 (3).png" alt="Golatho Logo">
-</div>
-  
-<div class="images">
 
-    <img src="file_00000000432481f480534d7fe2fa4d35.png">
 
-    <img src="file_00000000706881f490eb8af59e70bbd6.png">
+<!-- =========================
+     LOGO
+========================= -->
 
-    <img src="file_00000000720082438754b8c1e5ac0cd4 (1).png">
+<header>
 
-    <img src="file_00000000a468820aa2420537970a54a2 (1).png">
+    <div class="profile">
 
-    <img src="file_00000000b7f88246b8e50658aa00bed9.png">
+        <img
+            src="file_00000000534081f4a69caa93b8127aa8 (3).png"
+            alt="Golatho Logo">
 
-    <img src="file_00000000d08481f4afc2384fa3a7437d.png">
+    </div>
 
-    <img src="file_00000000f568821093df1e5aa4834b35.png">
+</header>
 
-    <img src="file_00000000f748820a9c8d036f0fb7e9a9.png">
-  
-</div>
+
+<!-- =========================
+     HERO
+========================= -->
+
 <section class="hero">
 
-<h1>Golatho.com</h1>
+    <div class="badge">
+        PREMIUM DOMAIN
+    </div>
 
-<h2>Premium Sports Brand Domain</h2>
+    <h1>
+        Golatho.com
+    </h1>
 
-<p>
-Golatho.com is a premium brandable .COM domain for sale.
-Ideal for football clubs, sportswear brands, media companies,
-sports apps, betting platforms, fan communities, and global sports startups.
-Easy to remember, unique, and built for a strong online brand.
-</p>
+    <div class="gold-line"></div>
 
-<a class="btn" href="mailto: golathorent@gmail.com ">Contact Owner</a>
+    <div class="subtitle">
+        Premium Brandable .COM Domain
+    </div>
+
+    <p class="description">
+        Golatho.com is a unique, memorable and versatile brand name
+        built for ambitious companies in football, sports, media,
+        gaming, AI and technology.
+    </p>
+
+    <div class="badge">
+        AVAILABLE FOR SALE
+    </div>
+
+    <br>
+
+    <a
+        class="btn"
+        href="mailto:Golathorent@gmail.com?subject=Inquiry%20about%20Golatho.com">
+
+        Make an Offer
+
+    </a>
+
+</section>
+
+
+<!-- =========================
+     IMAGES
+========================= -->
+
+<div class="images">
+
+    <img
+        src="file_00000000432481f480534d7fe2fa4d35.png"
+        alt="Golatho football brand">
+
+    <img
+        src="file_00000000706881f490eb8af59e70bbd6.png"
+        alt="Golatho sports concept">
+
+    <img
+        src="file_00000000720082438754b8c1e5ac0cd4 (1).png"
+        alt="Golatho football and sports">
+
+    <img
+        src="file_00000000a468820aa2420537970a54a2 (1).png"
+        alt="Golatho sports brand">
+
+    <img
+        src="file_00000000b7f88246b8e50658aa00bed9.png"
+        alt="Golatho football concept">
+
+    <img
+        src="file_00000000d08481f4afc2384fa3a7437d.png"
+        alt="Golatho premium sports brand">
+
+    <img
+        src="file_00000000f568821093df1e5aa4834b35.png"
+        alt="Golatho football brand concept">
+
+    <img
+        src="file_00000000f748820a9c8d036f0fb7e9a9.png"
+        alt="Golatho sports media concept">
+
+</div>
+
+
+<!-- =========================
+     FEATURES
+========================= -->
+
+<section class="features-section">
+
+    <h2 class="section-title">
+        Why Golatho.com?
+    </h2>
+
+    <div class="gold-line"></div>
+
+
+    <div class="cards">
+
+
+        <div class="card">
+
+            <h3>
+                Premium .COM
+            </h3>
+
+            <p>
+                A trusted global domain extension
+                suitable for serious brands.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Memorable
+            </h3>
+
+            <p>
+                Short, distinctive and easy
+                to remember.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Global Brand
+            </h3>
+
+            <p>
+                A versatile name with
+                international branding potential.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <h3>
+                Sports Ready
+            </h3>
+
+            <p>
+                A strong fit for football,
+                sports, media and fan communities.
+            </p>
+
+        </div>
+
+
+    </div>
 
 </section>
 
-<section class="features">
 
-<div class="card">
-<h3>Premium .COM</h3>
-<p>Short and memorable.</p>
-</div>
+<!-- =========================
+     FINAL SALE SECTION
+========================= -->
 
-<div class="card">
-<h3>Global Brand</h3>
-<p>Easy to pronounce worldwide.</p>
-</div>
+<section class="sale">
 
-<div class="card">
-<h3>Sports Ready</h3>
-<p>Perfect for football and sports.</p>
-</div>
+    <h2>
+        Own Golatho.com
+    </h2>
 
-<div class="card">
-<h3>Available</h3>
-<p>This domain is available for acquisition.</p>
-</div>
+    <p>
+        Secure a distinctive digital identity
+        for your next brand, startup, sports platform
+        or technology business.
+    </p>
+
+    <a
+        class="btn"
+        href="mailto:Golathorent@gmail.com?subject=Inquiry%20about%20Golatho.com">
+
+        Contact Owner
+
+    </a>
 
 </section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer>
 
-<h2>Own Golatho.com Today</h2>
+    <h2>
+        Golatho.com
+    </h2>
 
-<p>
-Serious inquiries only.
-</p>
+    <p>
+        Premium Brandable Domain — Available for Sale
+    </p>
 
 </footer>
+
 
 </body>
 </html>
